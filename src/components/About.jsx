@@ -71,11 +71,11 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </div>
 
-      <p ref={paragraphRef} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I'm a skilled software developer with experience in  JavaScript, and expertise in frameworks 
-        like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, 
-        scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
-      </p>
+<p ref={paragraphRef} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
+  I'm a Software Developer passionate about building complete, modern applications. With 1+ years of hands-on experience, I specialize in the MERN stack—developing everything from MongoDB databases and Express.js APIs to React interfaces and Node.js back-ends. My core tools include JavaScript, HTML, and CSS, and I thrive in agile environments where complex ideas are transformed into clean, functional code. For me, it’s about delivering meaningful software, not just counting the years.
+</p>
+
+
 
       <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-10">
         {services.map((service, index) => (

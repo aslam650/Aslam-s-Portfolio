@@ -59,19 +59,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full-Stack Developer",
+    title: "Web Developer",
     icon: web,
-  },
-  {
-    title: "Frontend Developer",
-    icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Ui UX Designer",
+    title: "Application Security",
+    icon: mobile,
+  },
+  {
+    title: "AI/ML Developer",
     icon: creator,
   },
 ];
@@ -112,16 +112,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
-  },
-  {
-    name: "Material Ui",
-    icon: mui,
   },
   {
     name: "Node JS",
@@ -130,10 +122,6 @@ const technologies = [
   {
     name: "Express Js",
     icon: express,
-  },
-  {
-    name: "AWS",
-    icon: aws,
   },
   {
     name: "MongoDB",
@@ -154,24 +142,44 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Tekisky",
+    title: " Software Developer",
+    company_name: "Gifty Solutions",
     icon: tekisky,
     iconBg: "#383E56",
-    date: "Jan 2023 - present",
-    points: [
-      "Developing and maintaining web applications using MERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    date: "2024 - present",
+// points: [
+//   "Built and deployed full-stack applications using the MERN stack — MongoDB, Express.js, React, and Node.js.",
+//   "Developed interactive, responsive front-ends with React.js, integrating RESTful APIs and state management for smooth UX.",
+//   "Worked on Node.js and Express.js back-ends to handle routes, authentication, and real-time data exchange.",
+//   "Designed and maintained MongoDB databases for structured, scalable, and efficient data handling.",
+//   "Collaborated in agile teams to plan sprints, fix bugs, and ship functional updates on time.",
+//   "Enhanced performance with code optimization, modular components, and caching techniques.",
+//   "Ensured responsive design and accessibility using HTML, CSS, and TailwindCSS for cross-device compatibility.",
+//   "Explored Next.js and TypeScript to expand the MERN stack skillset and improve workflow efficiency.",
+//   "Assisted in integrating testing workflows and basic CI/CD pipelines for smoother deployments.",
+//   "Driven by curiosity — learning, building, and refining full-stack solutions one project at a time."
+// ],
+points: [
+  "Built and deployed full-stack applications using the MERN stack — MongoDB, Express.js, React, and Node.js — delivering smooth, end-to-end functionality.",
+  "Developed responsive user interfaces in React.js, ensuring performance, accessibility, and clean component design.",
+  "Integrated RESTful APIs and handled data operations through Node.js and Express.js, enabling real-time interactions.",
+  "Designed and structured MongoDB databases for efficient data storage and retrieval.",
+  "Collaborated in agile sprints to build, test, and refine features that improved overall product quality.",
+  "Optimized front-end performance through code refactoring, caching, and modular architecture.",
+  "Implemented mobile responsiveness and UI consistency across devices using modern CSS techniques.",
+  "Explored and applied tools like Next.js, TailwindCSS, and TypeScript to enhance workflow and scalability.",
+  "Worked closely with team members to troubleshoot issues, review code, and maintain project standards.",
+  "Focused on continuous learning and improving MERN stack expertise through real-world projects and experimentation."
+],
+
+
   },
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Aslam proved me wrong.",
     name: "MD Mustaqeem",
     designation: "Ecommerce",
     company: "QuickMart",
@@ -179,7 +187,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Huzaif does.",
+      "I've never met a web developer who truly cares about their clients' success like Aslam does.",
     name: "Abdul Raheman",
     designation: "Ecommerce Business",
     company: "justbuyz",
@@ -187,7 +195,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Huzaif optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Aslam optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "James Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -197,77 +205,145 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Tekisky Mart",
+    name: "Coffee Shop Website",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+      "Coffee Shop is a modern coffee shop website offering a warm, cozy experience. Users can explore menus, order online, learn about blends, and enjoy the perfect brew crafted with passion and care.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "white-text-gradient",
-      },
-      {
-        name: "node",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "JavaScript",
+        color: "yellow-text-gradient",
       },
  
     ],
-    image: project2,
+    image: "https://Aslam07.github.io/Aslam-profile/images/Coffee.png",
     source_code_link: "https://github.com/",
   },
   {
-    name: "GearXpert",
+    name: "Pizza Slider",
     description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
+      "Pizza Slider is an interactive website featuring a smooth slider animation that lets users explore delicious pizza varieties with vibrant visuals, sleek transitions, and an appetizing modern design.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS",
         color: "blue-text-gradient",
       },
       {
-        name: "emailJs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Gsap",
-        color: "pink-text-gradient",
+        name: "JavaScript",
+        color: "yellow-text-gradient",
       },
     ],
-    image: gearXpert,
+    image: "https://Aslam07.github.io/Aslam-profile/images/Pizza.png",
     source_code_link: "https://github.com/",
   },
   {
-    name: "GoGroove-Ecommerce",
+    name: "Furni Shop",
     description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
+      "Furni Shop is a stylish furniture website showcasing elegant, modern designs. Users can browse collections with smooth visuals, explore details, and find perfect pieces to elevate any living space.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS",
         color: "blue-text-gradient",
       },
       {
-        name: "express",
-        color: "white-text-gradient",
+        name: "JavaScript",
+        color: "yellow-text-gradient",
+      },
+      // {
+      //   name: "mongodb",
+      //   color: "green-text-gradient",
+      // },
+    ],
+    image: "https://Aslam07.github.io/Aslam-profile/images/Furni.png",
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "She's Corner",
+    description:
+      "She’s Corner is a vibrant women’s shopping website offering stylish scarves, hijabs, hairbands, bangles, and accessories. It blends fashion and elegance, helping women express their style effortlessly.",
+    tags: [
+      {
+        name: "HTML",
+        color: "orange-text-gradient",
       },
       {
-        name: "node",
-        color: "green-text-gradient",
+        name: "CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: "https://Aslam07.github.io/Aslam-profile/images/shescorner.jpeg",
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "QSalon",
+    description:
+      "QSalon is a modern salon website designed for effortless booking and premium care. It showcases services, stylists, and pricing, offering a smooth, elegant experience that reflects beauty and professionalism.",
+    tags: [
+      {
+        name: "HTML",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "TailWind",
+        color: "teal-text-gradient",
+      },
+      {
+        name: "React.js",
+        color: "cyan-text-gradient",
       },
       {
         name: "mongodb",
         color: "green-text-gradient",
       },
     ],
-    image: project3,
+    image: "https://Aslam07.github.io/Aslam-profile/images/qsalon.jpeg",
     source_code_link: "https://github.com/",
   },
+  {
+    name: "CYBRT",
+    description:
+      "CYBRT is a cutting-edge cybersecurity website focused on digital safety and awareness. It highlights advanced protection solutions, online threat prevention, and expert insights to keep users secure and informed.",
+      tags: [
+        {
+          name: "HTML",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "WordPress",
+          color: "red-text-gradient",
+        }
+      ],
+    image: "https://Aslam07.github.io/Aslam-profile/images/cybrt.jpeg",
+    source_code_link: "https://github.com/",
+  },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
