@@ -315,7 +315,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: "src/images/qs.png",
+    image: "https://raw.githubusercontent.com/aslam650/Aslam-s-Portfolio/refs/heads/main/src/images/qs.png",
     source_code_link: "https://github.com/",
   },
   // {
