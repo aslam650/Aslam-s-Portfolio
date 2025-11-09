@@ -204,102 +204,102 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "Coffee Shop Website",
-    description:
-      "Coffee Shop is a modern coffee shop website offering a warm, cozy experience. Users can explore menus, order online, learn about blends, and enjoy the perfect brew crafted with passion and care.",
-    tags: [
-      {
-        name: "HTML",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "yellow-text-gradient",
-      },
+  // {
+  //   name: "Coffee Shop Website",
+  //   description:
+  //     "Coffee Shop is a modern coffee shop website offering a warm, cozy experience. Users can explore menus, order online, learn about blends, and enjoy the perfect brew crafted with passion and care.",
+  //   tags: [
+  //     {
+  //       name: "HTML",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "JavaScript",
+  //       color: "yellow-text-gradient",
+  //     },
  
-    ],
-    image: "https://Aslam07.github.io/Aslam-profile/images/Coffee.png",
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Pizza Slider",
-    description:
-      "Pizza Slider is an interactive website featuring a smooth slider animation that lets users explore delicious pizza varieties with vibrant visuals, sleek transitions, and an appetizing modern design.",
-    tags: [
-      {
-        name: "HTML",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: "https://Aslam07.github.io/Aslam-profile/images/Pizza.png",
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Furni Shop",
-    description:
-      "Furni Shop is a stylish furniture website showcasing elegant, modern designs. Users can browse collections with smooth visuals, explore details, and find perfect pieces to elevate any living space.",
-    tags: [
-      {
-        name: "HTML",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "yellow-text-gradient",
-      },
-      // {
-      //   name: "mongodb",
-      //   color: "green-text-gradient",
-      // },
-    ],
-    image: "https://Aslam07.github.io/Aslam-profile/images/Furni.png",
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "She's Corner",
-    description:
-      "She’s Corner is a vibrant women’s shopping website offering stylish scarves, hijabs, hairbands, bangles, and accessories. It blends fashion and elegance, helping women express their style effortlessly.",
-    tags: [
-      {
-        name: "HTML",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: "https://Aslam07.github.io/Aslam-profile/images/shescorner.jpeg",
-    source_code_link: "https://github.com/",
-  },
+  //   ],
+  //   image: "https://Aslam07.github.io/Aslam-profile/images/Coffee.png",
+  //   source_code_link: "https://github.com/",
+  // },
+  // {
+  //   name: "Pizza Slider",
+  //   description:
+  //     "Pizza Slider is an interactive website featuring a smooth slider animation that lets users explore delicious pizza varieties with vibrant visuals, sleek transitions, and an appetizing modern design.",
+  //   tags: [
+  //     {
+  //       name: "HTML",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "JavaScript",
+  //       color: "yellow-text-gradient",
+  //     },
+  //   ],
+  //   image: "https://Aslam07.github.io/Aslam-profile/images/Pizza.png",
+  //   source_code_link: "https://github.com/",
+  // },
+  // {
+  //   name: "Furni Shop",
+  //   description:
+  //     "Furni Shop is a stylish furniture website showcasing elegant, modern designs. Users can browse collections with smooth visuals, explore details, and find perfect pieces to elevate any living space.",
+  //   tags: [
+  //     {
+  //       name: "HTML",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "JavaScript",
+  //       color: "yellow-text-gradient",
+  //     },
+  //     // {
+  //     //   name: "mongodb",
+  //     //   color: "green-text-gradient",
+  //     // },
+  //   ],
+  //   image: "https://Aslam07.github.io/Aslam-profile/images/Furni.png",
+  //   source_code_link: "https://github.com/",
+  // },
+  // {
+  //   name: "She's Corner",
+  //   description:
+  //     "She’s Corner is a vibrant women’s shopping website offering stylish scarves, hijabs, hairbands, bangles, and accessories. It blends fashion and elegance, helping women express their style effortlessly.",
+  //   tags: [
+  //     {
+  //       name: "HTML",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "JavaScript",
+  //       color: "yellow-text-gradient",
+  //     },
+  //   ],
+  //   image: "https://Aslam07.github.io/Aslam-profile/images/shescorner.jpeg",
+  //   source_code_link: "https://github.com/",
+  // },
   {
     name: "QSalon",
     description:
       "QSalon is a modern salon website designed for effortless booking and premium care. It showcases services, stylists, and pricing, offering a smooth, elegant experience that reflects beauty and professionalism.",
     tags: [
       {
-        name: "HTML",
+        name: "Node.js",
         color: "orange-text-gradient",
       },
       {
@@ -315,34 +315,34 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: "https://Aslam07.github.io/Aslam-profile/images/qsalon.jpeg",
+    image: "src/images/qs.png",
     source_code_link: "https://github.com/",
   },
-  {
-    name: "CYBRT",
-    description:
-      "CYBRT is a cutting-edge cybersecurity website focused on digital safety and awareness. It highlights advanced protection solutions, online threat prevention, and expert insights to keep users secure and informed.",
-      tags: [
-        {
-          name: "HTML",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "JavaScript",
-          color: "yellow-text-gradient",
-        },
-        {
-          name: "WordPress",
-          color: "red-text-gradient",
-        }
-      ],
-    image: "https://Aslam07.github.io/Aslam-profile/images/cybrt.jpeg",
-    source_code_link: "https://github.com/",
-  },
+  // {
+  //   name: "CYBRT",
+  //   description:
+  //     "CYBRT is a cutting-edge cybersecurity website focused on digital safety and awareness. It highlights advanced protection solutions, online threat prevention, and expert insights to keep users secure and informed.",
+  //     tags: [
+  //       {
+  //         name: "HTML",
+  //         color: "orange-text-gradient",
+  //       },
+  //       {
+  //         name: "CSS",
+  //         color: "blue-text-gradient",
+  //       },
+  //       {
+  //         name: "JavaScript",
+  //         color: "yellow-text-gradient",
+  //       },
+  //       {
+  //         name: "WordPress",
+  //         color: "red-text-gradient",
+  //       }
+  //     ],
+  //   image: "https://Aslam07.github.io/Aslam-profile/images/cybrt.jpeg",
+  //   source_code_link: "https://github.com/",
+  // },
   
 ];
 
